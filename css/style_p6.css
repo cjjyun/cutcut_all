@@ -1,0 +1,276 @@
+html {
+	width:100%;
+	overflow-x:hidden;
+}
+
+/*  文字連結 */
+@font-face {
+	font-family: FakePearl-Regular; src: url(https://cdn.jsdelivr.net/gh/max32002/FakePearl@1.1/webfont/FakePearl-Regular.woff2) format("woff2")
+  , url(https://cdn.jsdelivr.net/gh/max32002/FakePearl@1.1/webfont/FakePearl-Regular.woff) format("woff");
+}
+
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px）) { 
+    #Contact .title .call {
+        margin-top: 0px;
+        float: initial;
+        
+    }
+    .storiesTopLeft {
+        padding-right:0;
+        border-right: none;
+    }
+    .mainStoriesBook #anna img{
+        margin-top: 0px;
+    }
+ }
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) { 
+    #Contact .title .call {
+        margin-top: 250px;
+        float: right;
+
+    }
+    .storiesTopLeft {
+        padding-right:0;
+        border-right: none;
+    }
+
+    #Contact .title .name{
+        margin-top: 200px;
+    }
+ }
+
+ /* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) { 
+    #Contact .title .call {
+        margin-top: 255px;
+        float: right;
+
+    }
+    .storiesTopLeft {
+        padding-right: 80px;
+        position: relative;
+        border-right: 1px solid #a68d85;
+        margin-bottom: 10px;
+    }
+ }
+
+/*navbar*/
+.navbar-brand img {
+	height: 50px;
+}
+
+@media (min-width: 768px) {
+/*nav選單*/
+.navbar{
+	padding-left:50px!important;
+	padding-right:50px!important; 
+ }
+}
+
+.navbar-nav {
+	margin-left: 510px;
+}
+
+/*封面*/
+.top {
+	padding-bottom: 80px;
+	background-image: 
+		linear-gradient(
+			to right,
+			#E8F0EC 70%,
+			#fff 30%
+			)
+}
+
+#cover {
+	position: relative;
+	padding: 0px 0px;
+	text-align: center;
+}
+
+#cover p {
+	font-family: FakePearl-Regular;
+	font-size: 72px;
+	color: #fff;
+	position: absolute;
+	color: black;
+	padding-top: 0px;
+	padding-right: 20px;
+	margin-top: 70px;
+	margin-left: 30px;
+	padding-top: 55px;
+	padding-left: 210px;
+}
+
+.quote:before {
+    content: " “ ";
+    color: black;
+    left: -0.5em;
+    top: -0.1em;
+    font-size: 160%;
+    padding-top: 0px;
+ }
+
+#cover img {
+	float: right;
+	padding-top: 40px;
+}
+
+#leftcover {
+	position: absolute;
+}
+
+/*引文*/
+.container {
+	margin-left: 140px;
+	margin-right: 140px;
+}
+
+.topic {
+	font-family: FakePearl-Regular;
+}
+
+.content {
+	margin-left: 53px;
+	font-size: 24px;
+	font-family: FakePearl-Regular;
+}
+
+/*底線*/
+mark.green {
+	border-bottom: 8px solid #A3C9B7;
+	background: none;
+	margin: 0 -2px;
+	padding: 0 2px;
+}
+
+/*早餐*/
+#breakfast {
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-bottom: 50px;
+	border-bottom: solid 1px #787D7B;
+	width: 1121.61px;
+}
+
+.topicb p {
+	padding-bottom: 10px;
+	font-family: FakePearl-Regular;
+}
+
+.pictureb {
+	padding: 0;
+	margin: 0;
+}
+
+.pictureb a:hover {
+	opacity: 0.8;
+}
+
+.b1 img {
+	float: right;
+}
+
+.b2 img {
+	float: right;
+}
+
+.b3 img {
+	float: right;
+}
+
+.menub {
+	padding: 0;
+	margin: 0;
+	padding-top: 20px;
+	text-align: right;
+	font-family: FakePearl-Regular;
+	font-size: 24px;
+}
+
+/*午餐*/
+#lunch {
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-bottom: 50px;
+	border-bottom: solid 1px #787D7B;
+	width: 1121.61px;
+}
+
+.topicl p {
+	padding-bottom: 10px;
+	font-family: FakePearl-Regular;
+}
+
+.picturel {
+	padding: 0 0;
+}
+
+.picturel a:hover {
+	opacity: 0.8;
+}
+
+.l1 img {
+	float: right;
+}
+
+.l2 img {
+	float: right;
+}
+
+.l3 img {
+	float: right;
+}
+
+.menul {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	padding-top: 20px;
+	text-align: right;
+	font-family: FakePearl-Regular;
+	font-size: 24px;
+}
+
+/*晚餐*/
+#dinner {
+	margin-top: 0px;
+	padding-top: 0px;
+	width: 1121.61px;
+}
+
+.topicd p {
+	padding-bottom: 10px;
+	font-family: FakePearl-Regular;
+}
+
+.pictured {
+	padding: 0 0;
+}
+
+.pictured a:hover {
+	opacity: 0.8;
+}
+
+.d1 img {
+	float: right;
+}
+
+.d2 img {
+	float: right;
+}
+
+.d3 img {
+	float: right;
+}
+
+.menud {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	padding-top: 20px;
+	text-align: right;
+	font-family: FakePearl-Regular;
+	font-size: 24px;
+}

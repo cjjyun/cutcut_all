@@ -1,0 +1,306 @@
+html {
+	width:100%;
+	overflow-x:hidden;
+}
+
+/*  文字連結 */
+@font-face {
+  font-family: FakePearl-Regular;
+  src: url(https://cdn.jsdelivr.net/gh/max32002/FakePearl@1.1/webfont/FakePearl-Regular.woff2) format("woff2")
+  , url(https://cdn.jsdelivr.net/gh/max32002/FakePearl@1.1/webfont/FakePearl-Regular.woff) format("woff");
+}
+
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px）) { 
+    #Contact .title .call {
+        margin-top: 0px;
+        float: initial;
+        
+    }
+    .storiesTopLeft {
+        padding-right:0;
+        border-right: none;
+    }
+    .mainStoriesBook #anna img{
+        margin-top: 0px;
+    }
+ }
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) { 
+    #Contact .title .call {
+        margin-top: 250px;
+        float: right;
+
+    }
+    .storiesTopLeft {
+        padding-right:0;
+        border-right: none;
+    }
+
+    #Contact .title .name{
+        margin-top: 200px;
+    }
+ }
+
+ /* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) { 
+    #Contact .title .call {
+        margin-top: 255px;
+        float: right;
+
+    }
+    .storiesTopLeft {
+        padding-right: 80px;
+        position: relative;
+        border-right: 1px solid #a68d85;
+        margin-bottom: 10px;
+    }
+ }
+
+/*navbar*/
+.navbar-brand img {
+	height: 50px;
+}
+
+@media (min-width: 768px) {
+/*nav選單*/
+.navbar{
+	padding-left:50px!important;
+	padding-right:50px!important; 
+ }
+}
+
+.navbar-nav {
+	margin-left: 510px;
+}
+
+#content {
+	margin-left: 140px;
+	margin-right: 140px;
+}
+
+/*topic*/
+.background {
+	padding-bottom: 100px;
+	padding-right: 0px;
+	margin-right: 0px;
+	padding-bottom: 80px;
+	background-image: 
+		linear-gradient(
+			to right,
+			#FEF5CB 70%,
+			#fff 30%
+			)
+}
+
+#myth {
+	font-size: 56px;
+	padding-bottom: 0px;
+	text-align: center;
+	margin-bottom: 0px;
+	padding-right: 0px;
+}
+
+#myth img {
+	padding-top: 40px;
+	float: right;
+}
+
+#leftcover img {
+	position: absolute;
+}
+
+.quotebefore:before {
+    content: " “ ";
+    color: black;
+    left: -0.5em;
+    top: -0.1em;
+    font-size: 200%;
+ }
+
+#cover {
+	font-family: FakePearl-Regular;
+	position: absolute;
+	padding-top: 135px;
+	padding-left: 130px;
+}
+
+/*content*/
+#content img {
+	justify-content: right;
+}
+
+/*first myth*/
+
+.topic1 {
+	display: block;
+	align-items: center;
+	padding: 0 0;
+	justify-content: left;
+	font-family: FakePearl-Regular;
+}
+
+mark.green {
+	background: linear-gradient(transparent 40%,#E9F2C7 40%, #E9F2C7 90%,transparent 95%);	
+    padding: 2px 1px;
+}
+
+.topic1 p {
+	color: #787D7B;
+	font-size: 16px;
+}
+
+.info1 {
+	padding: 0 0;
+}
+
+.outer1 {
+	margin-bottom: 0px;
+	font-size: 16px;
+	color: #787D7B;
+}
+
+.outer1 input {
+	border: none;
+	background-color: #EFF1FB;
+	font-size: 15px;
+	font-weight: 550;
+	color: #686868;
+}
+
+/*second myth*/
+#second {
+	margin-top: 60px;
+}
+
+.topic2 {
+	display: block;
+	align-items: center;
+	padding: 0 0;
+	justify-content: left;
+	font-family: FakePearl-Regular;
+}
+
+mark.orange {
+	background: linear-gradient(transparent 40%,#EFDED3 40%, #EFDED3 90%,transparent 95%);	
+    padding: 2px 1px;
+}
+
+.topic2 p {
+	color: #787D7B;
+	font-size: 16px;
+}
+
+
+.info2{
+	padding: 0 0;
+}
+
+.outer2 {
+	margin-bottom: 0px;
+	font-size: 15px;
+	color: #3A8FB7;
+}
+
+.outer2 input {
+	border: none;
+	background-color: #EFF1FB;
+	font-size: 15px;
+	font-weight: 550;
+	color: #686868;
+}
+
+/*third myth*/
+#third {
+	margin-top: 60px;
+}
+
+.topic3 {
+	display: block;
+	align-items: center;
+	padding: 0 0;
+	justify-content: left;
+	font-family: FakePearl-Regular;
+}
+
+mark.yellow {
+	background: linear-gradient(transparent 40%,#E5DBBA 40%, #E5DBBA 90%,transparent 95%);	
+	padding: 2px 1px;
+}
+
+.topic3 p {
+	color: #787D7B;
+	font-size: 16px;
+}
+
+.info3 {
+	padding: 0 0;
+}
+
+.outer3 {
+	margin-bottom: 0px;
+	font-size: 16px;
+}
+
+.outer3 input {
+	border: none;
+	background-color: #EFF1FB;
+	font-size: 15px;
+	font-weight: 550;
+	color: #686868;
+}
+
+/*fourth myth*/
+#fourth {
+	margin-top: 60px;
+}
+
+.topic4 {
+	display: block;
+	align-items: center;
+	padding: 0 0;
+	justify-content: left;
+	font-family: FakePearl-Regular;
+}
+
+mark.pink {
+	background: linear-gradient(transparent 40%,#FBE3EE 40%, #FBE3EE 90%,transparent 95%);	
+    padding: 2px 1px;
+}
+
+.topic4 p {
+	color: #787D7B;
+	font-size: 16px;
+}
+
+.info4 {
+	padding: 0 0;
+}
+
+.outer4 {
+	margin-bottom: 0px;
+	font-size: 16px;
+}
+
+.outer4 input {
+	border: none;
+	background-color: #EFF1FB;
+	font-size: 15px;
+	font-weight: 550;
+	color: #686868;
+}
+
+/*more myth*/
+#more {
+	display: flex;
+	justify-content: center;
+	margin-top: 60px;
+	margin-bottom: 100px;
+}
+
+#more a {
+	text-decoration: none;
+	font-size: 16px;
+	color: #787D7B;
+}
