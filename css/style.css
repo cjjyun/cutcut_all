@@ -1,12 +1,6 @@
 
 body {
 	font-family: FakePearl-Regular;
-	animation-duration: 3.5s;
-	animation-name: fadeIn;}
-
-	@keyframes fadeIn{
-	from {opacity:0;}
-	to {opacity:1;}
 }
 
 /*設定通用的中文字體*/
@@ -58,6 +52,12 @@ body {
 
 .banner {
 	margin-top: 76px;
+	animation-duration: 3.5s;
+	animation-name: fadeIn;}
+
+	@keyframes fadeIn{
+	from {opacity:0;}
+	to {opacity:1;}
 }
 
 .banner .container-fluid {
