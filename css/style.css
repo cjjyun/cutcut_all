@@ -238,7 +238,7 @@ body {
 /*設定page2標題引號*/
 .p2quote:before {
     content: " “ ";
-    color: #FDE166;
+    color: #000;
     left: -0.5em;
     top: -0.1em;
     font-size: 160%;
