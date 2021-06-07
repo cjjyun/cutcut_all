@@ -58,6 +58,10 @@ html {
  }
 
 /*navbar*/
+nav {
+	font-family: FakePearl-Regular;
+}
+
 .navbar-brand img {
 	height: 50px;
 }

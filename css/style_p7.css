@@ -1,6 +1,5 @@
 html{
 	width: 100%;
-
 }
 
 * {
@@ -29,6 +28,10 @@ a {
 
 
 /*navbar*/
+nav {
+	font-family: FakePearl-Regular;
+}
+
 .navbar-brand img {
 	height: 50px;
 }
