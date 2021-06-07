@@ -115,19 +115,27 @@ nav {
 	position: absolute;
 }
 
-.quotebefore:before {
+.quote:before {
     content: " “ ";
     color: black;
     left: -0.5em;
     top: -0.1em;
-    font-size: 200%;
+    font-size: 160%;
+    padding-top: 0px;
  }
 
-#cover {
+#myth p {
 	font-family: FakePearl-Regular;
+	font-size: 72px;
+	color: #fff;
 	position: absolute;
-	padding-top: 135px;
-	padding-left: 130px;
+	color: black;
+	padding-top: 55px;
+	padding-left: 140px;
+	padding-right: 20px;
+	margin-top: 70px;
+	margin-left: 10px;
+}
 }
 
 /*content*/

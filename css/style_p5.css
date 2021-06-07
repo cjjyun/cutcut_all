@@ -101,7 +101,6 @@ nav {
 	color: #fff;
 	position: absolute;
 	color: black;
-	padding-top: 0px;
 	padding-right: 20px;
 	margin-top: 70px;
 	margin-left: 30px;
@@ -116,7 +115,7 @@ nav {
     top: -0.1em;
     font-size: 160%;
     padding-top: 0px;
- }
+}
 
 #cover img {
 	float: right;
